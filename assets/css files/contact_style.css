@@ -72,3 +72,36 @@ button {
     margin-bottom: 20px;
   }
   
+
+/* Media Queries for Mobile Screens */
+@media screen and (max-width: 768px) {
+    .form_container {
+        width: 80%;
+        margin: 100px auto; /* Adjust margin for smaller screens */
+    }
+    
+    .navbar {
+        position: static; /* Make the navbar static */
+        width: 100%;
+        text-align: center;
+        padding: 10px 0; /* Add padding for better touch experience */
+    }
+    
+    .nav-link {
+        font-size: 18px;
+        padding: 15px 0; /* Reduce padding for smaller screens */
+        /* Stack navigation links vertically */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form_container {
+        width: 90%;
+        margin: 80px auto; /* Adjust margin for smaller screens */
+    }
+    
+    .nav-link {
+        font-size: 16px;
+        padding: 10px 0; /* Further reduce padding for smaller screens */
+    }
+}
