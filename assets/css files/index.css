@@ -250,7 +250,59 @@ span{
 }
 /* ------------------------------------------------------- */
 
+/* skills css */
+.skills{
+    background: var(--bg-color);
+}
+.skills .skill-container{
+    /* background: rgba(0,0,22,0.4); */
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 1.8rem;
+}
+.skills .skill-container .row{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+.skills .skill-container .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    /* background-color: rgba(0,0,22,0.9); */
+    box-shadow: 0 4px 10px var(--main-color);
+    transition: 0.2s;
+}
+.skills .skill-container .bar:hover{
+    background: var(--main-color);
+    box-shadow: 0 8px 10px var(--main-color);
+    
+}
+.skills .skill-container .bar:hover span{
+    color: var(--text-color);
+}
+.skills .skill-container .bar .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.skills .skill-container .bar .info span{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+.skills .skill-container .bar .info img {
+    width: 80px; /* Set the desired width */
+    height: 80px; /* Set the desired height */
+}
 
+/* ------------------------------------------------------------ */
 /* projects css */
 .project{
     background: var(--snd-bf-color);
@@ -306,6 +358,7 @@ span{
 }
 .project-info p{
     font-size: 1.6rem;
+    font-weight: 600;
     margin: .3rem 0 1rem;
 }
 .project-info a{
@@ -483,6 +536,20 @@ span{
     width: 50vw;
     margin-top: 4rem;
    }
+    .skills .skill-container{
+        margin: 0;
+        padding: 0;
+    }
+    .skills .skill-container .row{
+        grid-template-columns: repeat(4 , 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
+    }
+    .skills .skill-container{
+        margin-top: 5px;
+        width: 100%;
+    }
    .project h2{
     margin-bottom: 3rem;
    }
@@ -501,6 +568,20 @@ span{
     .about-img img{
         width: 40vw;
         margin-top: 4rem;
+    }
+    .skills .skill-container{
+        margin: 0;
+        padding: 0;
+    }
+    .skills .skill-container .row{
+        grid-template-columns: repeat(2 , 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
+    }
+    .skills .skill-container{
+        margin-top: 5px;
+        width: 100%;
     }
 }
 @media (max-width:450px){
