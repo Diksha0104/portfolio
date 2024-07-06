@@ -403,6 +403,11 @@ span{
     section{
         padding: 10rem 3%;
     }
+    .timeline-item {
+        margin-bottom: 40px;
+        width: 90%;
+        position: relative;
+    }
     .timeline-items::before{
         left:7px;
     }
