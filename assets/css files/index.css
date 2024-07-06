@@ -419,6 +419,15 @@ span{
     .timeline-item:nth-child(even){
         padding-left: 37px;
     }
+    .timeline-content {
+        background-color: var(--bg-color);
+        border: 3px solid var(--main-color);
+        padding: 20px 20px;
+        border-radius: 4rem;
+        box-shadow: 0 0 10px var(--main-color);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
     .timeline-dot{
         left: 0;
     }

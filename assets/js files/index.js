@@ -45,8 +45,8 @@ ScrollReveal({
 });
 ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img , .project-box , .contact form', {origin: 'bottom'});
-ScrollReveal().reveal('.home-contact h1, .about-img',{origin:'left'});
-ScrollReveal().reveal('.home-contact p, .about-content',{origin:'right'});
+ScrollReveal().reveal('.home-contact h1, .about-img , .timeline-item:nth-child(odd)',{origin:'left'});
+ScrollReveal().reveal('.home-contact p, .about-content ,.timeline-item:nth-child(even)',{origin:'right'});
 
 
 // type js---------------------------------------------------------
