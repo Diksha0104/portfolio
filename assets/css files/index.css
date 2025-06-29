@@ -300,17 +300,17 @@ span{
     background: var(--bg-color);
 }
 .skills .skill-container{
-    /* background: rgba(0,0,22,0.4); */
     color: var(--text-color);
     border-radius: 1rem;
     padding: 2rem;
     width: 100%;
     margin: auto;
     margin-top: 1.8rem;
+    margin-right: 10px;
 }
 .skills .skill-container .row{
     display: grid;
-    grid-template-columns: repeat(6 , 1fr);
+    grid-template-columns: repeat(5 , 1fr);
     flex-wrap: wrap;
     gap: 10rem;
 }
