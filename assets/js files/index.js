@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-contact p, .about-content ,.timeline-content:nth-ch
 // type js---------------------------------------------------------
 const typed =new Typed('.multiple-text',
     {
-        strings:['Frontend Developer','Backend Developer','Web Developer','Python Developer'],
+        strings:['Frontend Developer','Backend Developer','Web Developer','MERN Stack Developer','React Developer','Node Developer'],
         typeSpeed:70,
         backSpeed:70,
         backDelay:1000,
